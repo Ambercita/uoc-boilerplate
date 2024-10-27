@@ -11,6 +11,12 @@ importers:
       '@fortawesome/fontawesome-free':
         specifier: ^6.6.0
         version: 6.6.0
+      gsap:
+        specifier: ^3.12.5
+        version: 3.12.5
+      scrolltrigger:
+        specifier: ^1.0.1
+        version: 1.0.1
     devDependencies:
       '@parcel/transformer-sass':
         specifier: ^2.12.0
@@ -1066,6 +1072,9 @@ packages:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
     engines: {node: '>= 0.4'}
 
+  defined@1.0.1:
+    resolution: {integrity: sha512-hsBd2qSVCRE+5PmNdHt1uzyrFu5d3RwmFDKzyNZMFq/EwDNJF7Ee5+D5oEKF0hU6LhtoUF1macFvOe4AskQC1Q==}
+
   detect-libc@1.0.3:
     resolution: {integrity: sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==}
     engines: {node: '>=0.10'}
@@ -1273,6 +1282,9 @@ packages:
 
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+
+  gsap@3.12.5:
+    resolution: {integrity: sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==}
 
   has-bigints@1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
@@ -2078,6 +2090,9 @@ packages:
     engines: {node: '>=14.0.0'}
     hasBin: true
 
+  scrolltrigger@1.0.1:
+    resolution: {integrity: sha512-s1DiltnlovjFtapWHKOgHsJEM4lKF52v7rClIqROh6btosGO/Pc0mFiRZz+PTXjAp2PZPpj0U0KPcmxTnN4Idw==}
+
   semver@5.7.2:
     resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
@@ -2371,6 +2386,10 @@ packages:
   write-file-atomic@5.0.1:
     resolution: {integrity: sha512-+QU2zd6OTD8XWIJCbffaiQeH9U73qIqafo1x6V1snCWYGJf6cVE0cDR4D8xRzcEnfI21IFrUPzPGtcPf8AC+Rw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+
+  xtend@4.0.2:
+    resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
+    engines: {node: '>=0.4'}
 
 snapshots:
 
@@ -3634,6 +3653,8 @@ snapshots:
       has-property-descriptors: 1.0.2
       object-keys: 1.1.1
 
+  defined@1.0.1: {}
+
   detect-libc@1.0.3: {}
 
   detect-libc@2.0.3: {}
@@ -3888,6 +3909,8 @@ snapshots:
       get-intrinsic: 1.2.4
 
   graceful-fs@4.2.11: {}
+
+  gsap@3.12.5: {}
 
   has-bigints@1.0.2: {}
 
@@ -4710,6 +4733,11 @@ snapshots:
       immutable: 4.3.7
       source-map-js: 1.2.1
 
+  scrolltrigger@1.0.1:
+    dependencies:
+      defined: 1.0.1
+      xtend: 4.0.2
+
   semver@5.7.2: {}
 
   semver@7.6.3: {}
@@ -5097,3 +5125,5 @@ snapshots:
     dependencies:
       imurmurhash: 0.1.4
       signal-exit: 4.1.0
+
+  xtend@4.0.2: {}
