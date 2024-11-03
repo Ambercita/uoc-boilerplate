@@ -8,6 +8,7 @@
     "scss/dollar-variable-pattern": ["^foo", { "ignore": "global" }],
     "scss/selector-no-redundant-nesting-selector": true,
     "scss/load-no-partial-leading-underscore": null,
+    "no-descending-specificity": null,
     "selector-class-pattern": [
       "^[a-z]([-]?[a-z0-9]+)*(__[a-z0-9]([-]?[a-z0-9]+)*)?(--[a-z0-9]([-]?[a-z0-9]+)*)?$",
       {
