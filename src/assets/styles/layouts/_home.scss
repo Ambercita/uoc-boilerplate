@@ -46,7 +46,7 @@ article {
     }
   }
 
-  figure:nth-of-type(2) img{
+  figure:nth-of-type(2) img {
     @include img;
     clip-path: mostrar(15%, 50%, 35%);
     transition: clip-path 3s;
@@ -56,7 +56,7 @@ article {
     }
   }
 
-  figure:nth-of-type(3) img{
+  figure:nth-of-type(3) img {
     @include img;
     clip-path: mostrar(50%, 10%, 25%);
     transition: clip-path 3s;
@@ -66,7 +66,7 @@ article {
     }
   }
 
-  figure:nth-of-type(4) img{
+  figure:nth-of-type(4) img {
     @include img;
     clip-path: mostrar(20%, 60%, 25%);
     transition: clip-path 3s;
