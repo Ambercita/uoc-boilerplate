@@ -17,10 +17,10 @@ body {
     font-weight: 700;
     color: white;
   }
-}
 
-i {
-  padding-right: 0.25rem;
+  i {
+    padding-right: 0.25rem;
+  }
 }
 
 @function mostrar($radius, $x, $y) {
@@ -36,7 +36,7 @@ article {
   margin: 0 2rem;
   text-align: center;
 
-  figure:nth-of-type(1) {
+  figure:nth-of-type(1) img {
     @include img;
     clip-path: mostrar(25%, 45%, 25%);
     transition: clip-path 3s;
@@ -46,7 +46,7 @@ article {
     }
   }
 
-  figure:nth-of-type(2) {
+  figure:nth-of-type(2) img{
     @include img;
     clip-path: mostrar(15%, 50%, 35%);
     transition: clip-path 3s;
@@ -56,7 +56,7 @@ article {
     }
   }
 
-  figure:nth-of-type(3) {
+  figure:nth-of-type(3) img{
     @include img;
     clip-path: mostrar(50%, 10%, 25%);
     transition: clip-path 3s;
@@ -66,7 +66,7 @@ article {
     }
   }
 
-  figure:nth-of-type(4) {
+  figure:nth-of-type(4) img{
     @include img;
     clip-path: mostrar(20%, 60%, 25%);
     transition: clip-path 3s;
@@ -81,7 +81,6 @@ article {
     color: $color-secondary;
   }
 }
-
 main > header {
   background-image: url(../images/caleta.jpg);
   background-size: cover;
